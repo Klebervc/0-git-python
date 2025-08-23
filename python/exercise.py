@@ -23,17 +23,14 @@ tax_percent = 8 # porcentagem do imposto
 # TODO: Calcular gorjeta
 
 gorgeta = meal_cost * tip_percent/100
-#print(gorgeta)
 
 # TODO: Calcular imposto
 
 imposto = meal_cost * tax_percent/100
-#print(imposto)
 
 # TODO: Calcular total
 
 custo_total = meal_cost + imposto + gorgeta
-#print(custo_total)
 
 # TODO: Arredondar e exibir resultado
 
