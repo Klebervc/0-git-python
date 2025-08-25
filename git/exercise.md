@@ -20,7 +20,7 @@ Para adicionar todos os arquivos modificados ao stage use o comando `git add .`.
 
 # Como confirmar (salvar) mudanças no repositório?
 
-Para salvar as mudanças no repositório use o comando `git commit -m "Mensagem explicativa da alteração"`. Esse comando salva os arquivos que estão no stage. A mensagem da alteração deve ser sucinta e na forma imperativa.
+Para salvar as mudanças no repositório use o comando `git commit -m "Mensagem explicativa da alteração"`. Esse comando salva os arquivos que estão no stage. A mensagem da alteração deve ser sucinta e na forma imperativa informando o que de fato o commit faz se for aplicado.
 
 # Como visualizar o histórico de commits?
 
