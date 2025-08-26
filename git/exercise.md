@@ -4,7 +4,7 @@ Git é um sistema de controle de versão distribuido que monitora e registra alt
 
 # Qual a diferença entre git init e git clone?
 
-O `git init` cria um repositório ou trasforma um diretório comum em um repositório Git local, ou seja, a partir do git init conseguimos fazer e acessar alterações no projeto. Já o `git clone`, copia um repositório Git existente incluindo todo o histórico de alterações do projeto.
+O `git init` inicia um repositório Git ou trasforma um diretório comum em um repositório Git local, ou seja, a partir do git init conseguimos fazer e acessar alterações no projeto. Já o `git clone`, copia um repositório Git existente incluindo todo o histórico de alterações do projeto.
 
 # Como você verifica o estado atual do repositório?
 
