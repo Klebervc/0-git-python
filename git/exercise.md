@@ -43,7 +43,7 @@ Para criar e já entrar na branch use o comando `git checkout -b nome-da-branch`
 
 Uma branch serve para:
 
-- Desenvolvimento independente: a branch serve como uma linha de desenvolvimento que pode ser alterada sem que interfira na `main` do projeto.
+- Desenvolvimento independente: a branch serve como uma linha de desenvolvimento que pode ser alterada sem que altere a `main` do projeto.
 - Novas features: permite criar novas funcionalidades ao projeto sem interferir no projeto principal.
 - Corrige bugs: faz a correção de erros sem afetar a versão principal do projeto.
 - Experimentos: serve para realizarmos experimentos com segurança testando novas ideias.
@@ -52,7 +52,7 @@ Uma branch serve para:
 
 # O que é um Pull Request?
 
-O Pull Request é uma solicitação para que as suas mudanças feitas em um código em uma branch de um repositório sejam analizadas e, se aprovadas, integradas a branch principal (`main`) do projeto. O processo funciona da seguinte forma:
+O Pull Request é uma solicitação para que as suas mudanças feitas em um código em uma branch de um repositório sejam analizadas e, se aprovadas, integradas a `main` do projeto. O processo funciona da seguinte forma:
 
 - Cria-se uma nova branch para realizar mudanças no código ou nova funcionalidade.
 - Comita todas as alterações na branch criada.
@@ -62,7 +62,7 @@ O Pull Request é uma solicitação para que as suas mudanças feitas em um cód
 
 # O que é um Merge
 
-Merge é o processo de unir o conteúdo de dois branches em um só. O processo do merge é a última etapa descrita no exercício anterior. Abaixo temos um esquema de merge de uma branch criada `feature` para a branch `main` do projeto. Após o merge `G` os commits `D` e `E` da branch `feature` fazem parte do histórico de commits da `main`. O histórico da branch mesclada na branch destino é importante pois ajuda a entender o que veio de onde.
+Merge é o processo de unir o conteúdo de duas branches em um só. O processo do merge é a última etapa descrita no exercício anterior. Abaixo temos um esquema de merge de uma branch criada `feature` para a `main` do projeto. Após o merge `G` os commits `D` e `E` da branch `feature` fazem parte do histórico de commits da `main`. O histórico da branch mesclada na branch destino é importante pois ajuda a entender o que veio de onde.
 
 ```
 main:    A---B---C-------G
@@ -108,7 +108,7 @@ A---B---C---G       (main)
 ```
 # O que é um Pull Request em modo draft?
 
-Um Pull Request em modo `draft` é uma função de plataformas de controle de versão como `Github` que permitem o desenvolvedor abrir uma uma Pull Request antes que o porjeto esteja pronto para ser revisado ou mesclado (`merge`). O Pull Request em modo `draft` serve para obter feedback antes de definir o código, discutindo implementações com outros desenvolvedores.
+Um Pull Request em modo `draft` é uma função de plataformas de controle de versão como `Github` que permitem o desenvolvedor abrir uma uma Pull Request antes que o projeto esteja pronto para ser revisado ou mesclado (`merge`). O Pull Request em modo `draft` serve para obter feedback antes de definir o código, discutindo implementações com outros desenvolvedores.
 
 # O que é um Pull Request em modo open?
 
@@ -130,7 +130,7 @@ Alguns comandos com `pip` são:
 
 # O que é uma requirements.txt?
 
-Uma `requirements.txt` é um arquivo texto usado em projetos Python contendo todas as bibliotecas que serão necessária para o projeto funcionar. O seu uso é importante pois ele permite recriar o ambiente de desenvolvimento idêntico em qualquer máquina além de automatizar a instalação de pacotes com o `pip`.
+Uma `requirements.txt` é um arquivo texto usado em projetos Python contendo todas as bibliotecas que serão necessárias para o projeto funcionar. O seu uso é importante pois ele permite recriar o ambiente de desenvolvimento idêntico em qualquer máquina além de automatizar a instalação de pacotes com o `pip`.
 
 Um exemplo de uma `requirements.txt` é como segue:
 
@@ -139,13 +139,13 @@ requests==2.31.0
 flask>=2.0,<3.0
 numpy
 ```
-Esse `requirements.txt` instala exatamente a versão 2.31.0 do pacote, instala uma versão entre 2 (inclusive) e antes de 3.0 e instala a versão atual do python.
+Esse `requirements.txt` contém exatamente: a versão 2.31.0 do pacote, uma versão entre 2 (inclusive) até antes de 3.0 e a versão atual do python.
 
 Para instalar todos os pacotes listados no arquivo de uma vez temos o comando: `pip install -r requirements.txt`.
 
 # O que é uma .gitignore?
 
-Um `.gitignore` é um arquivo usado em prjetos que usam o Git e especifica quais arquivos ou pastas devem ser ignorados pelo Git. Isto significa que esses arquivos não serão rastreados, versionados ou enviados para o repositório.
+Um `.gitignore` é um arquivo usado em projetos que usam o Git e especifica quais arquivos ou pastas devem ser ignorados pelo Git. Isto significa que esses arquivos não serão rastreados, versionados ou enviados para o repositório.
 
 O `.gitignore` serve para que arquivos desnecessários não sejam incuídos no repositório, como:
 
