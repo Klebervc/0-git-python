@@ -1,6 +1,6 @@
 # O que é o Git e para que ele serve?
 
-Git é um sistema de controle de versão distribuido que monitora e registra alterações em qualquer arquivo ou grupo de arquivos em um repositório, permitindo a recuperação de iterações específicas conforme necessário. O Git serve para que membros da equipe trabalhem de forma independente e colaborativa em um projeto, mesmo que não estejam no mesmo local de trabalho. Ou seja, cada desenvolvedor pode trabalhar localmente, salvar as alterações que deram certo e sincronizar essas alterações em um repositório Git para que outros colaboradores possam ver a versão mais recente do projeto
+Git é um sistema de controle de versão distribuido que monitora e registra alterações em qualquer arquivo ou grupo de arquivos em um repositório, permitindo a recuperação de iterações específicas conforme necessário. O Git serve para que membros da equipe trabalhem de forma independente e colaborativa em um projeto, mesmo que não estejam no mesmo local de trabalho. Ou seja, cada desenvolvedor pode trabalhar localmente, salvar as alterações que deram certo e sincronizar essas alterações em um repositório Git para que outros colaboradores possam ver a versão mais recente do projeto.
 
 # Qual a diferença entre git init e git clone?
 
